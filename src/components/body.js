@@ -2,31 +2,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { useStaticQuery, graphql } from "gatsby"
 import { useEffect } from 'react';
 
 const Body = () => {
     useEffect(() => {
         // Scroll al inicio de la página cuando se carga una nueva URL
         window.scrollTo(0, 0);
-      }, []);
-      
-    const data = useStaticQuery(graphql`
-        query BodyQuery {
-        site {
-            siteMetadata {
-            author {
-                name
-                summary
-            }
-            social {
-                twitter
-            }
-            }
-        }
-        }
-    `)
-    
+      }, []);        
     
     return (
         <div className="spaceheader">
@@ -79,7 +61,7 @@ const Body = () => {
                                                     width={15}
                                                     quality={95}
                                                     formats={["AUTO", "WEBP", "AVIF"]}
-                                                    alt="Web Design"
+                                                    alt="Online"
                                                     placeholder="none"
                                                     style={{marginRight: 10, verticalAlign: "middle"}}
                                                 />                            
@@ -105,7 +87,7 @@ const Body = () => {
                                             width={18}
                                             quality={95}
                                             formats={["AUTO", "WEBP", "AVIF"]}
-                                            alt="Web Design"
+                                            alt="React"
                                             placeholder="none"
                                             style={{marginRight: 10, verticalAlign: "middle"}}
                                         />                            
@@ -117,7 +99,7 @@ const Body = () => {
                                             width={15}
                                             quality={95}
                                             formats={["AUTO", "WEBP", "AVIF"]}
-                                            alt="Web Design"
+                                            alt="CSS"
                                             placeholder="none"
                                             style={{marginRight: 10, verticalAlign: "middle"}}
                                         />                            
@@ -129,7 +111,7 @@ const Body = () => {
                                             width={15}
                                             quality={95}
                                             formats={["AUTO", "WEBP", "AVIF"]}
-                                            alt="Web Design"
+                                            alt="NodeJS"
                                             placeholder="none"
                                             style={{marginRight: 10, verticalAlign: "middle"}}
                                         />                            
@@ -168,7 +150,7 @@ const Body = () => {
                                                     width={15}
                                                     quality={95}
                                                     formats={["AUTO", "WEBP", "AVIF"]}
-                                                    alt="Web Design"
+                                                    alt="Online"
                                                     placeholder="none"
                                                     style={{marginRight: 10, verticalAlign: "middle"}}
                                                 />                            
@@ -315,7 +297,7 @@ const Body = () => {
                                         width={500}
                                         quality={95}
                                         formats={["AUTO", "WEBP", "AVIF"]}
-                                        alt="Valentin Radovich"
+                                        alt="Pet Hero"
                                         placeholder="none"
                                         imgStyle={{
                                             maxWidth: "100%",

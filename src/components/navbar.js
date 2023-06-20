@@ -1,24 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { useStaticQuery, graphql } from "gatsby"
 
 const Navbar = () => {
-    const data = useStaticQuery(graphql`
-        query NavbarQuery {
-        site {
-            siteMetadata {
-            author {
-                name
-                summary
-            }
-            social {
-                twitter
-            }
-            }
-        }
-        }
-    `)
     
     return (
         <div>
@@ -72,7 +56,7 @@ const Navbar = () => {
                                     width={20}
                                     quality={95}
                                     formats={["AUTO", "WEBP", "AVIF"]}
-                                    alt="resume"
+                                    alt="linkedin"
                                     placeholder="none"
                                     style={{marginRight: 10, verticalAlign: "middle"}}
                                 />
@@ -85,7 +69,7 @@ const Navbar = () => {
                                     width={20}
                                     quality={95}
                                     formats={["AUTO", "WEBP", "AVIF"]}
-                                    alt="resume"
+                                    alt="github"
                                     placeholder="none"
                                     style={{marginRight: 10, verticalAlign: "middle"}}
                                 />

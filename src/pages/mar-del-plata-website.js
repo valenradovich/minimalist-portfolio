@@ -50,7 +50,7 @@ const MarDelPlataWebsite = ({ data, location }) => {
             <h4>Website Images:</h4>
           </div>
           <div className="row image-container">
-            <img src={MDPWebsite} alt="webgif" />
+            <img src={MDPWebsite} alt="mdpwebsite" />
           </div>
           <div className="row">
             <h4>Technologies:</h4>

@@ -1,14 +1,12 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Seo from "../components/seo"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import Body from "../components/body"
-import Experience from "../components/experience"
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
 
 
   return (

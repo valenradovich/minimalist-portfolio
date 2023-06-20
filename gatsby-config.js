@@ -14,7 +14,7 @@ module.exports = {
       name: `Valentin Radovich`,
     },
     description: `Software Developer Portfolio`,
-    siteUrl: `https://github.com/valenradovich/`,
+    siteUrl: `https://valenradovich.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -110,9 +110,6 @@ module.exports = {
         short_name: `Valentin Radovich`,
         start_url: `/`,
         background_color: `#ffffff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/valenradovich_image.PNG`, // This path is relative to the root of the site.
       },

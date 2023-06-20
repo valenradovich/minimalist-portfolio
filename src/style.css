@@ -545,6 +545,12 @@ a {
   text-transform: uppercase;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 /*A partir de 500px hasta lo minimo posible aumentar margin-top .title-card*/
 @media screen and (max-width: 500px) {
   .card .title-card {
