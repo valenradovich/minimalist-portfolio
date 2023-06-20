@@ -53,7 +53,7 @@ const Navbar = () => {
                 </div>                                                  
                     <ul>
                     <li className="item">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <a href="https://drive.google.com/file/d/16FSlWikBSqbSyBX3p-Cs2Z8dwJAM3zIE/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <StaticImage
                                     src="../images/resume_icon.svg"
                                     width={15}
